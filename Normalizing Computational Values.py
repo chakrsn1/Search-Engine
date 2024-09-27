@@ -1,6 +1,6 @@
 import sqlite3
 import ast
-
+#This is a file that give page_rank and TFIDF scores in a normalized format
 conn = sqlite3.connect('Data.db')
 
 cur = conn.cursor()
