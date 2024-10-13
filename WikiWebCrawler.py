@@ -9,7 +9,6 @@ import sqlite3
 import re
 import math
 import time
-import signal
 
 # Initialize Chrome driver, service, database, amount of links stored in database, seed, and loop specific variables
 service = ChromeService(ChromeDriverManager().install())
